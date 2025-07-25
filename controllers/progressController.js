@@ -124,7 +124,6 @@ const seeQuizMarks = async (req, res) => {
     const attempts = progress.quizAttempts.map((attempt) => ({
       quiz: attempt.quiz._id,
       score: attempt.score,
-      totalMarks: attempt.quiz.questions.length,
       date: attempt.date,
     }));
 
