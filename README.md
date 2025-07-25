@@ -44,6 +44,8 @@ This project provides the backend for a simple Learning Management System (LMS) 
 
 ## 📡 REST APIs (Total: 14)
 
+Each API example now prefixed with either http://localhost:8000 or the Live URL.
+
 All protected routes require a `Bearer token` in the `Authorization` header.
 
 ###  1. Register User
